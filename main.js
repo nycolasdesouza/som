@@ -10,4 +10,4 @@ function tocaSomClap(){
     document.querySelector('#som_tecla_Clap').play();
 }
 //chamada ou invocaçao a funçao tocaSomClap ao clicar no botao
-document.querySelector('.tecla_Clap').onclick = tocaSomClap
+document.querySelector('.tecla_Clap').onclick = tocaSomClap;
