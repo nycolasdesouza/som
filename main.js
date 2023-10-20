@@ -25,3 +25,10 @@ function tocaSomPuff(){
 }
 //chamada ou invocaçao a funçao tocaSomPuff ao clicar no botao
 document.querySelector('.tecla_puff').onclick = tocaSomPuff;
+
+//declaraçao/criaçaoda funçao tocaSomSplash
+function tocaSomSplash(){    
+    document.querySelector('#som_tecla_splash').play();
+}
+//chamada ou invocaçao a funçao tocaSomSplash ao clicar no botao
+document.querySelector('.tecla_splash').onclick = tocaSomSplash;
