@@ -11,3 +11,10 @@ function tocaSomClap(){
 }
 //chamada ou invocaçao a funçao tocaSomClap ao clicar no botao
 document.querySelector('.tecla_clap').onclick = tocaSomClap;
+
+//declaraçao/criaçaoda funçao tocaSomTim
+function tocaSomTim(){    
+    document.querySelector('#som_tecla_tim').play();
+}
+//chamada ou invocaçao a funçao tocaSomTim ao clicar no botao
+document.querySelector('.tecla_tim').onclick = tocaSomTim;
