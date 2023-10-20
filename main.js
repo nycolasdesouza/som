@@ -18,3 +18,10 @@ function tocaSomTim(){
 }
 //chamada ou invocaçao a funçao tocaSomTim ao clicar no botao
 document.querySelector('.tecla_tim').onclick = tocaSomTim;
+
+//declaraçao/criaçaoda funçao tocaSomPuff
+function tocaSomPuff(){    
+    document.querySelector('#som_tecla_puff').play();
+}
+//chamada ou invocaçao a funçao tocaSomPuff ao clicar no botao
+document.querySelector('.tecla_puff').onclick = tocaSomPuff;
