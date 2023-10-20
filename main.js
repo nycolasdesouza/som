@@ -39,3 +39,10 @@ function tocaSomToim(){
 }
 //chamada ou invocaçao a funçao tocaSomToim ao clicar no botao
 document.querySelector('.tecla_toim').onclick = tocaSomToim;
+
+//declaraçao/criaçaoda funçao tocaSomPsh
+function tocaSomPsh(){    
+    document.querySelector('#som_tecla_psh').play();
+}
+//chamada ou invocaçao a funçao tocaSomPsh ao clicar no botao
+document.querySelector('.tecla_psh').onclick = tocaSomPsh;
