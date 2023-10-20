@@ -32,3 +32,10 @@ function tocaSomSplash(){
 }
 //chamada ou invocaçao a funçao tocaSomSplash ao clicar no botao
 document.querySelector('.tecla_splash').onclick = tocaSomSplash;
+
+//declaraçao/criaçaoda funçao tocaSomToim
+function tocaSomToim(){    
+    document.querySelector('#som_tecla_toim').play();
+}
+//chamada ou invocaçao a funçao tocaSomToim ao clicar no botao
+document.querySelector('.tecla_toim').onclick = tocaSomToim;
