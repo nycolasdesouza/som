@@ -19,3 +19,4 @@ for(let contador = 0; contador < listaDeTeclas.length; contador++){
     teclas.onkeydown = function(){
         teclas.classList.remove('ativa');
     }
+}
