@@ -1,1 +1,49 @@
-# som
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hooooo Efeitos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <h1>Hooooo Efeitos</h1>
+
+    <section class="teclado">
+        <button  class="tecla tecla_cade"><img src="images/download.jpeg" alt=""></button>
+        <button  class="tecla tecla_isso"><img src="images/81VwM1-WoKL._AC_SX425_.jpg" alt=""></button>
+        <button  class="tecla tecla_como"><img src="images/janela-aberta-sobre-uma-paisagem-rural-no-verão-velha-de-madeira-vista-sol-218632551.jpg" alt=""></button>
+
+        <button  class="tecla tecla_errei"><img src="images/d1a0b873de8b7835105182f79dda5525f169e067225d736815987212d6ab0d3a_1.jpg" alt=""></button>
+        <button  class="tecla tecla_acorda"><img src="images/downbob (1).jpeg" alt=""></button>
+        <button  class="tecla tecla_ele"><img src="images/laele.webp" alt=""></button>
+
+        <button  class="tecla tecla_kiko"><img src="images/kiko.jpeg" alt=""></button>
+        <button  class="tecla tecla_pix"><img src="images/pix.jpeg" alt=""></button>
+        <button  class="tecla tecla_logo">logo</button>
+    </section>
+
+    <audio src="sounds/e-o-pix-nada-ainda.mp3" id="som_tecla_cade"></audio>
+    <audio src="sounds/que-isso-moreno.mp3" id="som_tecla_isso"></audio>
+    <audio src="sounds/como-e-amigo.mp3" id="som_tecla_como"></audio>
+    <audio src="sounds/neymar-errei-fui-moleque.mp3" id="som_tecla_errei"></audio>
+    <audio src="sounds/whatsapp-audio-2021-02-07-at-13.mp3" id="som_tecla_acorda"></audio>
+    <audio src="sounds/la-ele.mp3" id="som_tecla_ele"></audio>
+    <audio src="sounds/a-risada-do-kiko.mp3" id="som_tecla_kiko"></audio>
+    <audio src="sounds/larissa-manoel-pedindo-pix.mp3" id="som_tecla_pix"></audio>
+    <audio src="sounds/responde-logo.mp3" id="som_tecla_logo">logo</audio>
+    <script src="main.js"></script>
+</body>
+</html>
+
